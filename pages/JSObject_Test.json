@@ -257,17 +257,7 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "JSObject_Test_getPosts",
-              "name": "getPosts",
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "widgetNames": [
           "Select1",
           "Text1",
@@ -543,17 +533,7 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "JSObject_Test_getPosts",
-              "name": "getPosts",
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "widgetNames": [
           "Select1",
           "Text1",
