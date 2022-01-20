@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 816,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
@@ -24,10 +24,48 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [
+            {
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595.svg",
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultText"
+                }
+              ],
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "s1m0g92d1h",
+              "isRequired": false,
+              "rightColumn": 21,
+              "widgetId": "i5udylrcy8",
+              "isVisible": true,
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": "{{JSObject1.myFun1()}}"
+            }
+          ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
+          "Input1",
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
@@ -50,7 +88,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 816,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
@@ -66,10 +104,48 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [
+            {
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595.svg",
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultText"
+                }
+              ],
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "s1m0g92d1h",
+              "isRequired": false,
+              "rightColumn": 21,
+              "widgetId": "i5udylrcy8",
+              "isVisible": true,
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": "{{JSObject1.myFun1()}}"
+            }
+          ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
+          "Input1",
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
