@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Bookdetailes",
+    "slug": "bookdetailes",
     "layouts": [
       {
         "viewMode": false,
@@ -100,6 +100,7 @@
                     {
                       "resetFormOnClick": true,
                       "widgetName": "FormButton1",
+                      "onClick": "{{Insert.run()}}",
                       "buttonColor": "#03B365",
                       "displayName": "FormButton",
                       "iconSVG": "/static/media/icon.c8f649ed.svg",
@@ -108,7 +109,13 @@
                       "type": "FORM_BUTTON_WIDGET",
                       "hideCard": true,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 46,
+                      "dynamicBindingPathList": [],
                       "text": "Submit",
                       "key": "36og6hri59",
                       "rightColumn": 62,
@@ -212,35 +219,6 @@
                       "fontSize": "PARAGRAPH"
                     },
                     {
-                      "widgetName": "Text4",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b52.svg",
-                      "topRow": 9,
-                      "bottomRow": 13,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 8.32421875,
-                      "leftColumn": 22,
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "#FFC13D",
-                      "text": "Label",
-                      "key": "vpdh3u0ytx",
-                      "rightColumn": 38,
-                      "textAlign": "LEFT",
-                      "widgetId": "fm7e8299n4",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "shouldScroll": false,
-                      "version": 1,
-                      "parentId": "ev650ppyil",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "fontSize": "PARAGRAPH"
-                    },
-                    {
                       "widgetName": "Rating1",
                       "displayName": "Rating",
                       "iconSVG": "/static/media/icon.914eb943.svg",
@@ -274,6 +252,36 @@
                         "Good",
                         "Great"
                       ]
+                    },
+                    {
+                      "widgetName": "Input1",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595.svg",
+                      "topRow": 9,
+                      "bottomRow": 13,
+                      "parentRowSpace": 10,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 8.32421875,
+                      "resetOnSubmit": true,
+                      "leftColumn": 21,
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "key": "gwrpnzezfz",
+                      "isRequired": false,
+                      "rightColumn": 41,
+                      "widgetId": "gq8eremvh6",
+                      "isVisible": true,
+                      "label": "",
+                      "version": 2,
+                      "parentId": "ev650ppyil",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "iconAlign": "left",
+                      "defaultText": ""
                     }
                   ],
                   "key": "b5ymrhp53w"
@@ -286,8 +294,8 @@
         "layoutOnLoadActions": [],
         "widgetNames": [
           "Form1",
+          "Input1",
           "Canvas1",
-          "Text4",
           "FormButton2",
           "Text3",
           "Text2",
@@ -297,18 +305,19 @@
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Bookdetailes",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "publishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Bookdetailes",
+    "slug": "bookdetailes",
     "layouts": [
       {
         "viewMode": false,
@@ -407,6 +416,7 @@
                     {
                       "resetFormOnClick": true,
                       "widgetName": "FormButton1",
+                      "onClick": "{{Insert.run()}}",
                       "buttonColor": "#03B365",
                       "displayName": "FormButton",
                       "iconSVG": "/static/media/icon.c8f649ed.svg",
@@ -415,7 +425,13 @@
                       "type": "FORM_BUTTON_WIDGET",
                       "hideCard": true,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 46,
+                      "dynamicBindingPathList": [],
                       "text": "Submit",
                       "key": "36og6hri59",
                       "rightColumn": 62,
@@ -519,35 +535,6 @@
                       "fontSize": "PARAGRAPH"
                     },
                     {
-                      "widgetName": "Text4",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b52.svg",
-                      "topRow": 9,
-                      "bottomRow": 13,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 8.32421875,
-                      "leftColumn": 22,
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "#FFC13D",
-                      "text": "Label",
-                      "key": "vpdh3u0ytx",
-                      "rightColumn": 38,
-                      "textAlign": "LEFT",
-                      "widgetId": "fm7e8299n4",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "shouldScroll": false,
-                      "version": 1,
-                      "parentId": "ev650ppyil",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "fontSize": "PARAGRAPH"
-                    },
-                    {
                       "widgetName": "Rating1",
                       "displayName": "Rating",
                       "iconSVG": "/static/media/icon.914eb943.svg",
@@ -581,6 +568,36 @@
                         "Good",
                         "Great"
                       ]
+                    },
+                    {
+                      "widgetName": "Input1",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595.svg",
+                      "topRow": 9,
+                      "bottomRow": 13,
+                      "parentRowSpace": 10,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 8.32421875,
+                      "resetOnSubmit": true,
+                      "leftColumn": 21,
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "key": "gwrpnzezfz",
+                      "isRequired": false,
+                      "rightColumn": 41,
+                      "widgetId": "gq8eremvh6",
+                      "isVisible": true,
+                      "label": "",
+                      "version": 2,
+                      "parentId": "ev650ppyil",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "iconAlign": "left",
+                      "defaultText": ""
                     }
                   ],
                   "key": "b5ymrhp53w"
@@ -593,8 +610,8 @@
         "layoutOnLoadActions": [],
         "widgetNames": [
           "Form1",
+          "Input1",
           "Canvas1",
-          "Text4",
           "FormButton2",
           "Text3",
           "Text2",
@@ -604,14 +621,15 @@
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Bookdetailes",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "policies": [],
