@@ -17,6 +17,14 @@
     "deleted": false,
     "policies": []
   },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {}
+  "publishedLayoutmongoEscapedWidgets": {
+    "Mongo_CRUD": [
+      "data_table"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Mongo_CRUD": [
+      "data_table"
+    ]
+  }
 }
