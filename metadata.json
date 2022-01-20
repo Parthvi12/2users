@@ -4,6 +4,122 @@
   "serverSchemaVersion": 1,
   "publishedDefaultPageName": "Bookdetailes",
   "unpublishedDefaultPageName": "Bookdetailes",
+  "actionCollectionList": [
+    {
+      "unpublishedCollection": {
+        "name": "JSObject1",
+        "pageId": "JSObject_Test",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n\tgetPosts: () => {\n\t\treturn getPosts.data.map(row => {\n\t\t\tlet randomValue = Math.random();\n\t\t\treturn {\n\t\t\t\t...row,\n\t\t\t\trandomValue\n\t\t\t};\n\t\t});\n\t},\n\tmyFun2: () => {\n\t\treturn \"Appsmith is awesome!\";\n\t}\n}",
+        "variables": []
+      },
+      "publishedCollection": {
+        "name": "JSObject1",
+        "pageId": "JSObject_Test",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n\tgetPosts: () => {\n\t\treturn getPosts.data.map(row => {\n\t\t\tlet randomValue = Math.random();\n\t\t\treturn {\n\t\t\t\t...row,\n\t\t\t\trandomValue\n\t\t\t};\n\t\t});\n\t},\n\tmyFun2: () => {\n\t\treturn \"Appsmith is awesome!\";\n\t}\n}",
+        "variables": []
+      },
+      "id": "JSObject_Test_JSObject1",
+      "deleted": false,
+      "userPermissions": [
+        "read:actions",
+        "execute:actions",
+        "manage:actions"
+      ],
+      "gitSyncId": "61e957007c4eab21b686c043_61e9572a7c4eab21b686c05b"
+    },
+    {
+      "unpublishedCollection": {
+        "name": "JSObject2",
+        "pageId": "JSObject_Test",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n\tnumber_type: [1,2,3,4],\n\tobject_type: [\n\t\t{\n\t\t\tkey:\"v1\",\n\t\t},\n\t\t{\n\t\t\tkey:\"v2\",\n\t\t},\n\t\t\n\t]\n}",
+        "variables": [
+          {
+            "name": "number_type",
+            "value": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "name": "object_type",
+            "value": [
+              {
+                "k": "v1"
+              },
+              {
+                "k": "v1"
+              }
+            ]
+          }
+        ]
+      },
+      "publishedCollection": {
+        "name": "JSObject2",
+        "pageId": "JSObject_Test",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n\tnumber_type: [1,2,3,4],\n\tobject_type: [\n\t\t{\n\t\t\tkey:\"v1\",\n\t\t},\n\t\t{\n\t\t\tkey:\"v2\",\n\t\t},\n\t\t\n\t]\n}",
+        "variables": [
+          {
+            "name": "number_type",
+            "value": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "name": "object_type",
+            "value": [
+              {
+                "k": "v1"
+              },
+              {
+                "k": "v1"
+              }
+            ]
+          }
+        ]
+      },
+      "id": "JSObject_Test_JSObject2",
+      "deleted": false,
+      "userPermissions": [
+        "read:actions",
+        "execute:actions",
+        "manage:actions"
+      ],
+      "gitSyncId": "61e957007c4eab21b686c043_61e9580e7c4eab21b686c06b"
+    }
+  ],
   "editModeTheme": {
     "name": "Classic",
     "isSystemTheme": true,
