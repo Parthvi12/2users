@@ -4,6 +4,7 @@
   "serverSchemaVersion": 1,
   "publishedDefaultPageName": "Bookdetailes",
   "unpublishedDefaultPageName": "Bookdetailes",
+  "actionCollectionList": [],
   "editModeTheme": {
     "name": "Classic",
     "isSystemTheme": true,
