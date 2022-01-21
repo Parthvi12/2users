@@ -16,6 +16,7 @@
     "pageId": "JSobject3",
     "collectionId": "JSobject3_JSObject1",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\t//write code here\n\t}",
@@ -54,6 +55,7 @@
     "pageId": "JSobject3",
     "collectionId": "JSobject3_JSObject1",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\t//write code here\n\t}",
