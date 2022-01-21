@@ -8,42 +8,6 @@
     {
       "unpublishedCollection": {
         "name": "JSObject1",
-        "pageId": "jsobject1",
-        "pluginId": "js-plugin",
-        "pluginType": "JS",
-        "actionIds": [],
-        "defaultToBranchedArchivedActionIdsMap": {},
-        "archivedActionIds": [],
-        "actions": [],
-        "archivedActions": [],
-        "body": "export default {\n\tmyFun1: () => {\n\t\tlet a =  Input1.text;\n\treturn a ;\n\t}\n}",
-        "variables": []
-      },
-      "publishedCollection": {
-        "name": "JSObject1",
-        "pageId": "jsobject1",
-        "pluginId": "js-plugin",
-        "pluginType": "JS",
-        "actionIds": [],
-        "defaultToBranchedArchivedActionIdsMap": {},
-        "archivedActionIds": [],
-        "actions": [],
-        "archivedActions": [],
-        "body": "export default {\n\tmyFun1: () => {\n\t\tlet a =  Input1.text;\n\treturn a ;\n\t}\n}",
-        "variables": []
-      },
-      "id": "jsobject1_JSObject1",
-      "deleted": false,
-      "userPermissions": [
-        "read:actions",
-        "execute:actions",
-        "manage:actions"
-      ],
-      "gitSyncId": "61e9661b7c4eab21b686c17c_61e966837c4eab21b686c19f"
-    },
-    {
-      "unpublishedCollection": {
-        "name": "JSObject1",
         "pageId": "jsobject",
         "pluginId": "js-plugin",
         "pluginType": "JS",
@@ -76,6 +40,42 @@
         "manage:actions"
       ],
       "gitSyncId": "61e9604b7c4eab21b686c11d_61e960a97c4eab21b686c140"
+    },
+    {
+      "unpublishedCollection": {
+        "name": "JSObject1",
+        "pageId": "jsobject1",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n\tmyFun1: () => {\n\t\tlet a =  Input1.text;\n\treturn a ;\n\t}\n}",
+        "variables": []
+      },
+      "publishedCollection": {
+        "name": "JSObject1",
+        "pageId": "jsobject1",
+        "pluginId": "js-plugin",
+        "pluginType": "JS",
+        "actionIds": [],
+        "defaultToBranchedArchivedActionIdsMap": {},
+        "archivedActionIds": [],
+        "actions": [],
+        "archivedActions": [],
+        "body": "export default {\n\tmyFun1: () => {\n\t\tlet a =  Input1.text;\n\treturn a ;\n\t}\n}",
+        "variables": []
+      },
+      "id": "jsobject1_JSObject1",
+      "deleted": false,
+      "userPermissions": [
+        "read:actions",
+        "execute:actions",
+        "manage:actions"
+      ],
+      "gitSyncId": "61e9661b7c4eab21b686c17c_61e966837c4eab21b686c19f"
     },
     {
       "unpublishedCollection": {
