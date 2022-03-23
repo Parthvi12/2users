@@ -19,16 +19,37 @@
       "encodeParamsToggle": true,
       "formData": {
         "updateMany": {
-          "query": "{ Frõ: ObjectId('{{data_table.selectedRow.Frõ}}') }",
-          "limit": "SINGLE",
-          "update": "{\n  \"_id\" : {{update_col_1.text}},\n\t\"Från\" : {{update_col_2.text}},\n  \"date\" : {{update_col_3.text}}\n}"
+          "query": {
+            "data": "{ Frõ: ObjectId('{{data_table.selectedRow.Frõ}}') }",
+            "viewType": "component",
+            "componentData": "{ Frõ: ObjectId('{{data_table.selectedRow.Frõ}}') }"
+          },
+          "limit": {
+            "data": "SINGLE",
+            "viewType": "component",
+            "componentData": "SINGLE"
+          },
+          "update": {
+            "data": "{\n  \"_id\" : {{update_col_1.text}},\n\t\"Från\" : {{update_col_2.text}},\n  \"date\" : {{update_col_3.text}}\n}",
+            "viewType": "component",
+            "componentData": "{\n  \"_id\" : {{update_col_1.text}},\n\t\"Från\" : {{update_col_2.text}},\n  \"date\" : {{update_col_3.text}}\n}"
+          }
         },
-        "collection": "test",
-        "delete": {
-          "limit": "SINGLE"
+        "collection": {
+          "data": "test",
+          "viewType": "component",
+          "componentData": "test"
         },
-        "command": "UPDATE",
-        "smartSubstitution": true
+        "command": {
+          "data": "UPDATE",
+          "viewType": "component",
+          "componentData": "UPDATE"
+        },
+        "smartSubstitution": {
+          "data": true,
+          "viewType": "component",
+          "componentData": true
+        }
       }
     },
     "executeOnLoad": false,

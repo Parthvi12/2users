@@ -18,18 +18,28 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
-        "updateMany": {
-          "limit": "SINGLE"
-        },
         "insert": {
-          "documents": "{\n \"_id\": {{insert_col_input1.text}}, \n \"Från\": {{insert_col_input2.text}}, \n \"date\": {{insert_col_input3.text}}\n}"
+          "documents": {
+            "data": "{\n \"_id\": {{insert_col_input1.text}}, \n \"Från\": {{insert_col_input2.text}}, \n \"date\": {{insert_col_input3.text}}\n}",
+            "viewType": "component",
+            "componentData": "{\n \"_id\": {{insert_col_input1.text}}, \n \"Från\": {{insert_col_input2.text}}, \n \"date\": {{insert_col_input3.text}}\n}"
+          }
         },
-        "collection": "test",
-        "delete": {
-          "limit": "SINGLE"
+        "collection": {
+          "data": "test",
+          "viewType": "component",
+          "componentData": "test"
         },
-        "command": "INSERT",
-        "smartSubstitution": true
+        "command": {
+          "data": "INSERT",
+          "viewType": "component",
+          "componentData": "INSERT"
+        },
+        "smartSubstitution": {
+          "data": true,
+          "viewType": "component",
+          "componentData": true
+        }
       }
     },
     "executeOnLoad": false,
